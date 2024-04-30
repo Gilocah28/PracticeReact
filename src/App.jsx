@@ -1,5 +1,5 @@
 import React from 'react'
-import OneComponents from './Components/OneComponents'
+import OneComponents from './Components/LessonOne/OneComponents'
 
 function App() {
   return (
