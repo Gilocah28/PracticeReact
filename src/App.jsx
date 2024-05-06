@@ -5,6 +5,8 @@ import StylingComponent from './Components/StylingComponents/StylingComponent'
 import StateAndPropsCom from './Components/StateAndProps/StateAndPropsCom'
 import PropsComponent from './Components/StateAndProps/PropsComponent'
 import ExerciseComponent from './Components/StateAndProps/exercise/ExerciseComponent'
+import ExpandableTextComponents from './Components/StateAndProps/exercise/ExpandableTextComponents'
+import ParentComponent from './Components/StateAndProps/exercise/ParentComponent'
 
 
 
@@ -19,7 +21,9 @@ function App() {
       {/* <PropsComponent/> */}
 
 
-    <ExerciseComponent/>
+    {/* <ExerciseComponent/> */}
+
+    <ParentComponent/>
     </div>
   )
 }
