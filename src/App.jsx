@@ -4,6 +4,7 @@ import HandleComponent from './Components/handlingEvents/HandleComponent'
 import StylingComponent from './Components/StylingComponents/StylingComponent'
 import StateAndPropsCom from './Components/StateAndProps/StateAndPropsCom'
 import PropsComponent from './Components/StateAndProps/PropsComponent'
+import ExerciseComponent from './Components/StateAndProps/exercise/ExerciseComponent'
 
 
 
@@ -15,7 +16,10 @@ function App() {
       {/* <HandleComponent/> */}
       {/* <StylingComponent/> */}
       {/* <StateAndPropsCom/> */}
-      <PropsComponent/>
+      {/* <PropsComponent/> */}
+
+
+    <ExerciseComponent/>
     </div>
   )
 }
