@@ -4,6 +4,7 @@ import UseEffectComponent from "./UseEffectComponent";
 import BtnComponent from "./UseContext/BtnComponent";
 import ThemeProvider from "./UseContext/ThemeProvider";
 import ThemeContext from "./UseContext/context/ThemeContext";
+import UseReducerComponent from "./UseReducerComponent";
 
 const HookParentComponent = () => {
 
@@ -14,12 +15,15 @@ const HookParentComponent = () => {
       {/* <UserefComponent/> */}
       {/* <UseEffectComponent/> */}
 
-      <ThemeProvider>
+      {/* <ThemeProvider>
         <div>
           <h1>Theme Context</h1>
         </div>
         <BtnComponent />
-      </ThemeProvider>
+      </ThemeProvider> */}
+
+
+      <UseReducerComponent/>
     </>
   );
 };
