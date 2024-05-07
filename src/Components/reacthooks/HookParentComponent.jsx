@@ -1,15 +1,25 @@
-import React, { useRef } from "react";
+import React, { useContext, useRef } from "react";
 import UserefComponent from "./UserefComponent";
 import UseEffectComponent from "./UseEffectComponent";
+import BtnComponent from "./UseContext/BtnComponent";
+import ThemeProvider from "./UseContext/ThemeProvider";
+import ThemeContext from "./UseContext/context/ThemeContext";
 
 const HookParentComponent = () => {
 
- 
+  // const {theme} = useContext(ThemeContext)
 
   return (
     <>
       {/* <UserefComponent/> */}
-      <UseEffectComponent/>
+      {/* <UseEffectComponent/> */}
+
+      <ThemeProvider>
+        <div>
+          <h1>Theme Context</h1>
+        </div>
+        <BtnComponent />
+      </ThemeProvider>
     </>
   );
 };
