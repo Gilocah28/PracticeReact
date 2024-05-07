@@ -5,6 +5,7 @@ import BtnComponent from "./UseContext/BtnComponent";
 import ThemeProvider from "./UseContext/ThemeProvider";
 import ThemeContext from "./UseContext/context/ThemeContext";
 import UseReducerComponent from "./UseReducerComponent";
+import UseCallbackComponent from "./UseCallbackComponent";
 
 const HookParentComponent = () => {
 
@@ -23,7 +24,9 @@ const HookParentComponent = () => {
       </ThemeProvider> */}
 
 
-      <UseReducerComponent/>
+      {/* <UseReducerComponent/> */}
+
+      <UseCallbackComponent/>
     </>
   );
 };
