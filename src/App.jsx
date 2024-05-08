@@ -8,6 +8,7 @@ import ExerciseComponent from './Components/StateAndProps/exercise/ExerciseCompo
 import ExpandableTextComponents from './Components/StateAndProps/exercise/ExpandableTextComponents'
 import ParentComponent from './Components/StateAndProps/exercise/ParentComponent'
 import HookParentComponent from './Components/reacthooks/HookParentComponent'
+import FormHandlingComponent from './Components/FormHandling/FormHandlingComponent'
 
 
 
@@ -27,9 +28,9 @@ function App() {
     {/* <ParentComponent/> */}
 
 
-    <HookParentComponent/>
+    {/* <HookParentComponent/> */}
 
-
+    <FormHandlingComponent/>
 
     </div>
   )
